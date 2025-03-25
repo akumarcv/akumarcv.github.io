@@ -440,6 +440,38 @@
                     <p>Following a Bayesian formulation, we disentangle the 3D pose of a face image explicitly by conditioning the landmark estimation on pose, making it different from multi-tasking approaches.</p>
                   </td>
                 </tr>
+                
+                <tr onmouseout="power_stop()" onmouseover="power_start()">
+                  <td style="padding:16px;width:20%;vertical-align:middle">
+                    <div class="one">
+                      <img src='images/kepler_conf.png' width="160">
+                    </div>
+                    <script type="text/javascript">
+                      function power_start() {
+                        document.getElementById('power_image').style.opacity = "1";
+                      }
+
+                      function power_stop() {
+                        document.getElementById('power_image').style.opacity = "0";
+                      }
+                      power_stop()
+                    </script>
+                  </td>
+                  <td style="padding:8px;width:80%;vertical-align:middle">
+                    <span class="papertitle">KEPLER: Keypoint and Pose Estimation of Unconstrained Faces by Learning Efficient H-CNN Regressors</span>
+                    <br>
+                    <strong>Amit Kumar</strong>,
+                    <a href="https://www.rmit.edu.au/profiles/a/azadeh-alavi">Azadeh Alavi</a>,
+                    <a href="https://engineering.jhu.edu/faculty/rama-chellappa/">Rama Chellappa</a>,
+                    <br>
+                    <em>FG</em>, 2017
+                    <br>
+                    /
+                    <a href="https://arxiv.org/abs/1702.05085">arxiv</a>
+                    <p></p>
+                    <p>Although a simple feed forward neural network can learn the mapping between input and output spaces, it cannot learn the inherent structural dependencies. We present a novel architecture called H-CNN (Heatmap-CNN) which captures structured global and local features and thus favors accurate keypoint detecion.</p>
+                  </td>
+                </tr>
 
               </tbody>
             </table>
